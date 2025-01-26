@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: GPL-2.0+
+# Copyright (c) 2024 YOUNGJIN JOO (neoelec@gmail.com)
+
 PRJ_NASM_MK_FILE	:= $(realpath $(lastword $(MAKEFILE_LIST)))
 PRJ_NASM_MK_DIR		:= $(shell dirname $(PRJ_NASM_MK_FILE))
 
